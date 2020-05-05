@@ -17,6 +17,6 @@ def speak_to_grandma(phrase)
   puts "HUH?! SPEAK UP, SONNY!"
 elsif phrase == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN"
-else phrase != String.downcase
-  puts "NO, NOT SINCE 1938"
+else phrase != phrase.downcase
+  puts "NO, NOT SINSCE 1938"
   end
