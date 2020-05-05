@@ -19,3 +19,4 @@ elsif phrase == "I LOVE YOU GRANDMA!"
 else phrase != phrase.downcase
   puts "NO, NOT SINCE 1938"
   end
+end
