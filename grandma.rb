@@ -11,7 +11,7 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-def speak_to_grandma(String)
+def speak_to_grandma(phrase)
   phrase = "HELLO GRANDMA!"
  if phrase != String.upcase
   puts "HUH?! SPEAK UP, SONNY!"
